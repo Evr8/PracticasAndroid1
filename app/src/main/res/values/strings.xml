@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Practice_One</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_principal">PrincipalActivity</string>
+    <string name="title_activity_not_count">¿No tienes cuenta?/Crea una aqui</string>
+    <string name="title_activity_create_count">CreateCountActivity</string>
 </resources>

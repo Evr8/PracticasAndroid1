@@ -9,4 +9,5 @@
     <color name="icons">#FFFFFF</color>
     <color name="divider">#BDBDBD</color>
     <color name="editTextColorWhite">#FFFFFF</color>
+    <color name="light_green">#b2d7d2</color>
 </resources>

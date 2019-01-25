@@ -2,7 +2,7 @@ package com.example.evaldivia.practice_one.model;
 
 import java.util.Date;
 
-public class Alumno {
+public class Cliente {
     private String nombre;
     private long numero_cuenta;
     private Date fechaNacimiento;

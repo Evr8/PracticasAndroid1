@@ -1,6 +1,5 @@
 package com.example.evaldivia.practice_one;
 
-import android.content.Context;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -13,7 +12,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.evaldivia.practice_one.model.Alumno;
+import com.example.evaldivia.practice_one.model.Cliente;
 
 import java.util.Date;
 
@@ -29,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        final Alumno alumno = new Alumno();
+        final Cliente alumno = new Cliente();
       //  alumno.setNombre("Karla Ramirez");
         alumno.setFechaNacimiento(new Date());
         alumno.setNumero_cuenta(12345678);
@@ -76,9 +75,9 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
+//        if (id == R.id.action_settings) {
+//            return true;
+//        }
 
         return super.onOptionsItemSelected(item);
     }
